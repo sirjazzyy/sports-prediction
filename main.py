@@ -126,7 +126,7 @@ def nba_predictions(date):
     return results
 
 # Get NFL game data for 2023 season
-nfl_api_url = "https://api.sportsdata.io/v3/nfl/scores/json/Games/2023?key=1b0d2025a1a1407bb9e0b544986a80d9"
+nfl_api_url = "https://api.sportsdata.io/v3/nfl/scores/json/Games/2023?key={NFL_TOKEN}"
 nfl_response = requests.get(nfl_api_url)
 
 
